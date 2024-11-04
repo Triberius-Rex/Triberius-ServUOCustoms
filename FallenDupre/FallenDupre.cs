@@ -84,10 +84,9 @@ namespace Server.Mobiles
             SetResistance(ResistanceType.Cold, 60);
             SetResistance(ResistanceType.Poison, 25);
             SetResistance(ResistanceType.Energy, 40);
-            
-			SetSkill( SkillName.Parry, 120.0 );
-			SetSkill( SkillName.Swords, 120.0 );
-			SetSkill( SkillName.Tactics, 120.0 );
+            SetSkill( SkillName.Parry, 120.0 );
+	    SetSkill( SkillName.Swords, 120.0 );
+     	    SetSkill( SkillName.Tactics, 120.0 );
             SetSkill( SkillName.Anatomy, 120.0 );
             SetSkill( SkillName.Magery, 120.0);
             SetSkill( SkillName.SpiritSpeak, 120.0);
@@ -129,7 +128,7 @@ namespace Server.Mobiles
             {
                 return new Type[]
                 {
-                    typeof(EmbroideredOakLeafCloak),
+                    typeof(RoyalGuardInvestigatorsCloak),
                     typeof(DjinnisRing),
                     typeof(DetectiveBoots),
                     typeof(GauntletsOfAnger)

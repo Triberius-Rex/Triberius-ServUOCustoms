@@ -14,19 +14,16 @@ namespace Server.Mobiles
 			Name = NameList.RandomName ("Undead Knights");
 			Body = 744;
 			BaseSoundID = 451;
-            Hue = 1;
-
+           		Hue = 1;
 			SetStr( 500, 750 );
 			SetDex( 76, 95 );
 			SetInt( 36, 60 );
-
 			SetHits( 400, 600 );
-
 			SetDamage( 8, 18 );
 
 			SetDamageType( ResistanceType.Physical, 75, 85 );
 			SetDamageType( ResistanceType.Cold, 60 );
-            SetResistance( ResistanceType.Physical, 35, 45 );
+            		SetResistance( ResistanceType.Physical, 35, 45 );
 			SetResistance( ResistanceType.Fire, 20, 30 );
 			SetResistance( ResistanceType.Cold, 50, 60 );
 			SetResistance( ResistanceType.Poison, 20, 30 );
@@ -41,15 +38,15 @@ namespace Server.Mobiles
 
 			VirtualArmor = 40;
 
-            AddItem(new BoneHelm());            
-            AddItem(new BoneGloves());
-            AddItem(new MetalKiteShield());            
-            AddItem(new VikingSword());
-            AddItem(new BoneChest());
-            AddItem(new HoodedShroudOfShadows());
+            		AddItem(new BoneHelm());            
+            		AddItem(new BoneGloves());
+            		AddItem(new MetalKiteShield());            
+            		AddItem(new VikingSword());
+            		AddItem(new BoneChest());
+            		AddItem(new HoodedShroudOfShadows());
            
 
-            new Nightmare().Rider = this;
+            		new Nightmare().Rider = this;
 
 			switch ( Utility.Random( 6 ) )
 			{
